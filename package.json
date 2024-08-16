@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/your-repo-name.git"
+    "url": "git+https://github.com/kenmori/corner-islands.git"
   },
   "keywords": [
     "border-radius",

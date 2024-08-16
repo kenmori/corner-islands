@@ -28,19 +28,26 @@ console.log(result); // [2, 3, 4, 1]
 
 ## API
 
+```js
 getIsland(fields: { condition: 'And' | 'Or' }[]): (1 | 2 | 3 | 4)[]
+```
+
 Represents connections between elements as "islands" and returns the state of each element as a number.
 
+```text
 1: Independent element (only one island)
 2: Start of an island
 3: Middle of an island
 4: End of an island
+```
 
 ## Examples
 
-[2, 4, 2, 4] => Contains two islands
-[2, 3, 3, 4] => One island composed of four elements
-[2, 3, 4, 1] => Contains two islands
+`[2, 4, 2, 4]` => Contains two islands
+
+`[2, 3, 3, 4]` => One island composed of four elements
+
+`[2, 3, 4, 1]` => Contains two islands
 
 ## License
 
@@ -52,4 +59,4 @@ Issues and pull requests are welcome. For major changes, please open an issue fi
 
 ## Author
 
-[kenmori](https://x.com/terrace_tech)
+[@kenmori](https://x.com/terrace_tech)
