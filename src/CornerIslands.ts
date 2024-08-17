@@ -48,7 +48,7 @@ export class CornerIslands {
         fields[mid].condition === 'And' &&
         fields[right].condition === 'And'
       ) {
-        dp[right] = 3;
+        dp[right] = 4;
         dp[mid] = 2;
         if (right === fields.length - 1) dp[right] = 4;
         if (left === 0) dp[left] = 1;

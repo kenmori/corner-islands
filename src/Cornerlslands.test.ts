@@ -203,7 +203,7 @@ describe('getIsland', () => {
 
   describe("when the fields is ['Or', 'And', 'And', 'Or']", () => {
 
-    it('should return [1, 2, 3, 1]', () => { // 1, 2, 3, 4確認
+    it('should return [1, 2, 4, 1]', () => { // 1, 2, 3, 4確認
       const fields = [
         { condition: 'Or' as const },
         { condition: 'And' as const },
@@ -213,7 +213,7 @@ describe('getIsland', () => {
 
       const values = instance.getIsland(fields);
 
-      const result = [1, 2, 3, 1];
+      const result = [1, 2, 4, 1];
 
       expect(values).toEqual(result);
     });
