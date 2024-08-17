@@ -11,8 +11,11 @@
   "keywords": [
     "border-radius",
     "dynamic border-radius",
+    "conditional border-radius",
     "connected corners",
-    "islands-radius"
+    "islands-radius",
+    "react",
+    "typescript"
   ],
   "scripts": {
     "build": "tsc",
