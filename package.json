@@ -1,22 +1,26 @@
 {
   "name": "@kenmori/corner-islands",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "corner-islands is a lightweight utility for dynamically determining the border-radius and other styles of connected elements in a sequence. By treating groups of elements as \"islands,\" this package allows you to easily style connected corners, apply custom styles, and manage layout logic based on the relationship between elements. Perfect for React and other UI frameworks where flexible, conditional styling is needed.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/your-repo-name.git"
+    "url": "git+https://github.com/kenmori/corner-islands.git"
   },
   "keywords": [
     "border-radius",
     "dynamic border-radius",
+    "conditional border-radius",
     "connected corners",
-    "islands-radius"
+    "islands-radius",
+    "react",
+    "typescript"
   ],
   "scripts": {
     "build": "tsc",
-    "test": "jest",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
     "prepare": "npm run build"
   },
   "author": "Kenji Morita <omajimedesign@google.com> (https://x.com/terrace_tech)",
@@ -27,7 +31,7 @@
   "homepage": "https://github.com/kenmori/corner-islands",
   "devDependencies": {
     "@types/jest": "29.5.12",
-    "jest": "29.7.0"
+    "vitest": "2.0.5"
   },
   "dependencies": {
     "typescript": "5.5.4"
