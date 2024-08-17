@@ -1,6 +1,6 @@
 {
   "name": "@kenmori/corner-islands",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "corner-islands is a lightweight utility for dynamically determining the border-radius and other styles of connected elements in a sequence. By treating groups of elements as \"islands,\" this package allows you to easily style connected corners, apply custom styles, and manage layout logic based on the relationship between elements. Perfect for React and other UI frameworks where flexible, conditional styling is needed.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
