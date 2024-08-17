@@ -1,6 +1,6 @@
 # corner-islands
 
-<img src="https://kenjimorita.jp/wp-content/uploads/2019/02/スクリーンショット-2024-08-17-9.38.32.png" width="600px" />
+<img src="https://kenjimorita.jp/wp-content/uploads/2024/08/スクリーンショット-2024-08-17-10.23.19.png" width="600px" />
 
 corner-islands is a lightweight utility for dynamically determining the border-radius and other styles of connected elements in a sequence. By treating groups of elements as \"islands,\" this package allows you to easily style connected corners, apply custom styles, and manage layout logic based on the relationship between elements. Perfect for React and other UI frameworks where flexible, conditional styling is needed.
 
@@ -35,6 +35,8 @@ Represents connections between elements as "islands" and returns the state of ea
 
 `[2, 3, 4, 1]` => Contains two islands
 
+
+- [stackblitz](https://stackblitz.com/edit/corner-islands?file=README.md)
 
 ```ts
 import { CornerIslands } from 'corner-islands';
